@@ -15,3 +15,13 @@ body {
 .btn-primary { @apply bg-brand text-white hover:bg-brand-dark focus:ring-2 focus:ring-brand/30; }
 .input { @apply w-full rounded-xl2 border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand/30; }
 .label { @apply block text-sm mb-1; }
+
+// filepath: [index.css](http://_vscodecontentref_/0)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Now you can use @apply */
+.btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded;
+}
